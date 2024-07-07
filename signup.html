@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Login System</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+  <body>
+
+    <div class="w-75 mx-auto shadow-lg p-1  my-5 pb-5">
+      <h1 class="text-center head pt-5">Smart Login System </h1>
+
+
+
+
+      <div class=" my-1  m-auto ps-5 pe-5 ">
+        <input  type="text" class="form-control  text-white" id="username" placeholder="Enter your name">
+      </div>
+  
+
+      <div class=" my-3  m-auto ps-5 pe-5 ">
+        <input  type="emai" class="form-control  text-white" id="useremail" placeholder="Enter your email">
+      </div>
+
+      <div class=" my-3  m-auto ps-5 pe-5 ">
+        <input  type="password" class="form-control  text-white" id="userepassword" placeholder="Enter your password">
+      </div>
+
+      <div class=" my-3  m-auto text-center text-danger d-none" id="warningmsg">
+        <p>All inputs is required</p>
+      </div>
+      <div class=" my-3  m-auto text-center text-success d-none" id="successmsg">
+        <p>Success</p>
+      </div>
+
+      <div class=" my-3  m-auto text-center text-danger d-none" id="existmsg">
+        <p>email already exists</p>
+      </div>
+
+      <div class=" my-3  m-auto ps-5 pe-5">
+        <button class="btn btn-outline-info w-100 my-3" id="signupbtn" onclick="signup()">Sign Up</button>
+      </div>     
+
+
+
+   
+
+
+
+      <div class=" my-3  m-auto text-center text-white">
+        <p class="">Don’t have an account? <a href="index.html">Sign In</a></p>
+      </div>
+    </div>
+
+  
+
+
+
+
+    <script src="js/index.js"></script>
+    <script src="js/signup.js"></script>
+
+  </body>
+</html>

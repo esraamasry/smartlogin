@@ -1,0 +1,25 @@
+body
+{
+    background-color: #24353F;
+}
+.head
+{
+    color: #17A2B8;
+}
+.form-control
+{
+    background-color:transparent !important ;
+    border-color:#ced4da !important;
+    box-shadow: none !important;
+    transition: .5s;
+}
+
+.form-control:focus
+{
+    border-color: #17A2B8 !important;
+
+}
+::placeholder
+{
+    color: #A8B6B6 !important;
+}
